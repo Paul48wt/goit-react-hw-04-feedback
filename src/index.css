@@ -13,3 +13,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.feedbackOptions {
+  display: flex;
+  gap: 10px;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.statistics {
+  font-weight: 500;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
