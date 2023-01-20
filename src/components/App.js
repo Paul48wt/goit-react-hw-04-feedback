@@ -22,6 +22,7 @@ export function App() {
         setBad(prev => prev + 1);
 
       // eslint-disable-next-line no-fallthrough
+
       default:
         return;
     }
